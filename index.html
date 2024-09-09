@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Klinik</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- nav holder -->
+    
+    <!-- header -->
+
+    <header>
+      <div class="flex justify-between flex-wrap upperNav">
+        <div class="container-fluid">
+          <div class="flex justify-between items-center gapX-2 bg-black">
+            <div class="flex justify-between  gapX-1">
+              <div class="flex items-center justify-center gapX-1">
+                <div class="flex items-center justify-center gapX-1">
+                  <div>
+                    <!-- icon -->
+                     <a href="#">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </a>
+                  </div>
+                  <div>123 Street, New York, USA</div>
+                </div>
+
+                <div class="flex items-center justify-center gapX-1">
+                  <div class="bg-black">
+                    <a href="#">
+                    <!-- icon -->
+                    <i class="fa-solid fa-location-dot"></i>
+                    </a>
+                  </div>
+                  <div>123 Street, New York, USA</div>
+                </div>
+              </div>
+              <div class="flex items-center gapX-2"></div>
+            </div>
+            <div class="flex items-center gapX-2">
+              <div class="flex items-center justify-between  gapX-2">
+                <div class="flex items-center justify-between gapX-1">
+                  <div>
+                    <a href="">
+                    <!-- icon -->
+                    <i class="fa-solid fa-phone"></i>
+                  </a>
+                  </div>
+                  <div>
+                    <!-- icon -->
+                    +012 345 6789
+                  </div>
+                </div>
+                <div class="flex items-center gapX-4 justify-between">
+                 
+                  <!-- put icons here -->
+                   <div class="flex justify-between gapX-2">
+                   <div>
+                   <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                </div>
+                <div>
+                 <a href="">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                </div>
+                <div>
+                  <a href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                </div>
+                </div>
+              </div>
+                
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+        <!-- header -->
+        <!-- nav -->
+            <nav class="main-nav">
+              <div class="container-fluid">
+                <div class="flex items-center justify-between p-0">
+                    <ul class="flex justify-start gapX-1 flex-wrap items-center">
+                      <li><a href="#">
+                        <i class="far fa-hospital"></i>
+                      </a></li>
+                      <li><a href="#">
+                        Klinik
+                      </a></li>
+                    </ul>
+                    <ul class="flex justify-end gapX-2 flex-wrap items-center">
+                      <li><a href="#">
+                        Home
+                      </a></li>
+                      <li><a href="#">
+                        About
+                      </a></li>
+                      <li><a href="#">
+                        Service
+                      </a></li>
+                      <li><a href="#">
+                      Pages
+                      </a></li>
+                      <li><a href="#">
+                        Contact
+                      </a></li>
+                      <li><a  href="#">
+                      <button   class="py-2 px-4 w-full text-white bg-blue  border-0 border-radius-4 navbarBtn pr-0">
+                        Appointment
+                      </button>
+                      </a></li>
+                     
+                    </ul>
+                </div>
+                
+              </div>
+            </nav>
+        <!-- nav -->
+         <!-- nav on mobile -->
+          <div class="mobile-nav">
+            <div class="container">
+            <div class="flex flex-row items-center justify-between">
+              <div>
+                <ul class="flex items-center gap-0 hide">
+                <!-- logo -->
+                <li><a href="#">
+                  <i class="far fa-hospital me-3"></i> 
+                </a>
+                 <!-- logo text -->
+                  <a href="#">
+                    Klinik
+                  </a>
+                </li>
+                </ul>
+              </div>
+
+              <div class="hide">
+                <button id="toggleButton" class="flex justify-center items-center">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                
+                <ul id="myElement" style="display: none;">
+                    <div class="container">
+                      <li>
+                        <a  href="#">Home</a>
+                      </li>
+                      <li>
+                        <a href="#">About</a>
+                      </li>
+                      <li>
+                        <a href="#">Service</a>
+                      </li>
+                      <li>
+                        <a href="#">Pages</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact</a>
+                      </li>
+
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        <!-- hero section -->
+         <section class="bg-blue flex mobile-hide">
+            
+           
+              <div class="flex flex-column items-center justify-center h-half ml-3 ">
+                <div class="flex flex-col gapY-4">  
+                <h2 class="text-white fsz-5rem">  Good Health Is The <br> Root Of All <br> Heppiness
+                  </h2>
+                  <div class="flex items-center gapX-2">
+                    <div class="border-left-2 py-1 pl-1 flex flex-col h-full gapY-1 justify-between">
+                      <h3 class="text-white fsz-2rem">123</h3>
+                      <p class="text-white">Expert Doctors
+                      </p>
+                    </div>
+                    <div class="border-left-2 py-1 pl-1 flex flex-col h-full gapY-1 justify-between">
+                      <h3 class="text-white fsz-2rem">123</h3>
+                      <p class="text-white">Expert Doctors
+                      </p>
+                    </div>
+                    <div class="border-left-2 py-1 pl-1 flex flex-col h-full gapY-1 justify-between">
+                      <h3 class="text-white fsz-2rem">123</h3>
+                      <p class="text-white">Expert Doctors
+                      </p>
+                    </div>
+
+
+                  </div>
+                </div>
+                </div>
+           
+            
+            <div class="flex justify-between items-center">
+          
+          </div>  
+        
+          <!-- left -->
+            <div class="w-half ml-auto d-none">
+              <img src="assets/images/hero-image.jpg" alt="">
+            </div>
+             
+            <!-- right -->
+          
+         </section>
+        <!-- hero section -->
+
+         <!-- hero section mobile-->
+         <section class="hero-mobile  hide">
+          <!-- top -->
+          
+            <div class="flex justify-center items-center flex-col  w-full">
+              <div class="mobile-bg">
+                <div>
+                  <h2 class="text-white fsz-5rem">Cardiology</h2>
+                </div>
+              </div>
+              <div class="mobile-bg-color">
+
+              </div>
+              <div>
+               
+              </div>
+            </div>
+            <div class="w-full block h-full ">
+            <div class="bg-blue mobile-section flex flex-col  items-center justify-center h-half ">
+              <div class="container-fluid">
+                <div>
+                    <h2 class="text-white mb-2"> Good Health Is The Root Of All Heppiness </h2>
+                </div>
+                <div class="flex flex-col items-start justify-center">
+                  <div class="border-left-2 py-1 pl-1 flex flex-col h-full mb-2 justify-between">
+                    <h3 class="text-white fsz-2rem">123</h3>
+                    <p class="text-white">Expert Doctors
+                    </p>
+                  </div>
+                  <div class="border-left-2 py-1 pl-1 flex flex-col h-full mb-2 justify-between">
+                    <h3 class="text-white fsz-2rem">123</h3>
+                    <p class="text-white">Expert Doctors
+                    </p>
+                  </div>
+                  <div class="border-left-2 py-1 pl-1 flex flex-col h-full mb-2 justify-between">
+                    <h3 class="text-white fsz-2rem">123</h3>
+                    <p class="text-white">Expert Doctors
+                    </p>
+                  </div>
+
+
+                </div>
+                <div>
+
+                </div>
+              </div>
+            </div>
+            </div>
+          <!-- bottom  -->
+          <div>
+
+          </div>
+       </section>
+      <!-- hero section mobile-->
+      
+    <script src="./js/script.js"></script>
+  </body>
+</html>
