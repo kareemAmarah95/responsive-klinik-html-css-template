@@ -12,9 +12,11 @@
   border-left: 2px solid white;
 }
 .h-screen {
-  height: 100vh;
+  height: 100vh !important;
 }
-
+.h-full {
+  height: 100% !important;
+}
 .w-halfP {
   width: 50%;
 }
@@ -34,6 +36,7 @@ img {
   display: block;
   object-fit: cover;
   width: 100%;
+  height: 100%;
 }
 a {
   text-decoration: none;
@@ -155,12 +158,29 @@ a {
   gap: 4rem 0px;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
 .text-black {
   color: black;
 }
 
 .bg-red {
   background: red;
+}
+
+.bg-img-hero {
+  background-image: url("../assets/images/hero-image.jpg");
+  /* background-size: contain; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 500px; */
+  height: 100vh;
+  width: 100%;
 }
 
 .bg-skyblue {
@@ -281,7 +301,8 @@ button {
 
   .hero-mobile .mobile-bg {
     background-image: url("../assets/images/hero-image.jpg");
-    background-size: contain;
+    /* background-size: contain; */
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
